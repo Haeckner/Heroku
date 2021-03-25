@@ -24,13 +24,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
 <body>
   
+  <!-- Function to display alert in pop-up box-->
+  <?php
+    function phpAlert() {
+      echo '<script type="text/javascript">alert("Thank you for clicking the button!")</script>';
+    }
+  ?>
+  
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WB5SBNS"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
   <center><?php echo "The purpose of this app is purely educational. This time I am practicing implementation of Ads, Analytics and GTM."; ?></center>
   
-  <button id="triggerButton"><h1>Press this button to fire an event-based tag</h1></button>
+  <button id="triggerButton" onclick="phpAlert"><h1>Press this button to fire an event-based tag</h1></button>
    
 </body>
    
