@@ -2,7 +2,8 @@
 <html>
 <head>
 <title> Sample php app for Analytics, Ads and GTM implementation training</title>
-</head>
+
+  <link rel="stylesheet" href="herokuapp-style.css">
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192604322-2"></script>
@@ -21,6 +22,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WB5SBNS');</script>
 <!-- End Google Tag Manager -->
+  
+  </head>
+  
   
 <body>
   
