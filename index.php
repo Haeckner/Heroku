@@ -29,8 +29,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
   <center><?php echo "The purpose of this app is purely educational. This time I am practicing implementation of Ads, Analytics and GTM."; ?></center>
+  
+  <button id="triggerButton"><h1>Press this button to fire an event-based tag</h1></button>
+   
 </body>
+   
 <footer style="margin-top:2cm">
   <center> Copyright &copy; 2021 Me </center>
 </footer>
+   
 </html>
