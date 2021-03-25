@@ -23,6 +23,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
   
 <body>
+  
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WB5SBNS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  
 <?php echo "The purpose of this app is purely educational. This time I am practicing implementation of Ads, Analytics and GTM."; ?>
 </body>
 <footer style="margin-top:2cm">
