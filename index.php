@@ -49,7 +49,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
       <div>
         <p> Number below is supposed to be random and for test purposes only. </p>
-      <a href="tel:123133111"><button id="callButton" onclick="showAlert(2)"><h1>12 31 33 111</h1></button>
+      <a href="tel:123133111"><button id="callButton" onclick="showAlert(2)"><h1>12 31 33 111</h1></button></a>
           
       </div>
   
