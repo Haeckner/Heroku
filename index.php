@@ -43,7 +43,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       <div>
   
-      <button id="triggerButton" onclick="showAlert()"><h1>Press this button to fire an event-based tag</h1></button>
+      <button id="triggerButton" onclick="showAlert(1)"><h1>Press this button to fire an event-based tag</h1></button>
+          
+      </div>
+    
+      <div>
+        <p> Number below is supposed to be random and for test purposes only. </p>
+      <a href="tel:123133111"><button id="callButton" onclick="showAlert(2)"><h1>12 31 33 111</h1></button>
           
       </div>
   
@@ -51,8 +57,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <!-- Function to display alert in pop-up box-->
     <script>
-        function showAlert() {
-            alert("Thank you for clicking the button! Now check Analytics");
+        function showAlert(x) {
+          if (x==1) alert("Thank you for clicking the button! Now check Analytics");
+          else if (x==2) alert("Thank you for clicking call button");
         }
     </script>
     
